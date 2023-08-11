@@ -1,0 +1,9 @@
+Para setar uma variável, devo usar a expressão entre {{ }} (chaves duplas) no link, depois seleciono a opção "Pre-request script" que irá rodar um script antes da minha solicitação.
+No menu do lado direito, já existem várias opções pré-definidas, seleciono a que melhor se adequa a minha necessidade e faço as modificações no script.
+
+Também posso criar variáveis de ambiente e deixar os valores pré-definidos.
+
+OBS. Uma variável local sobrepõe a variável de ambiente, pois as variáveis de mais específicas sobrepõe as mais abrangentes.
+
+
+

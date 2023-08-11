@@ -1,0 +1,24 @@
+pm é o objeto base
+
+
+Pre Scripts INFO
+pm.info: Fornece informações sobre o script que será executado, como nome, ID, contagem de interações, etc
+
+pm.info.eventName - Retorna o nome do evento
+pm.info.iteration - Retorna o número da iteração corrente 
+pm.info.iterationCount - Retorna a quantidade de iterações feitas
+pm.info.requestName - Retorna o nome do request
+pm.info.requestId - Retorna o Id do Request
+
+
+Pre Scripts Variáveis
+pm.variables, environment, collectionVariables, globals: Fornece acesso as variáveis, dependendo de seu escopo, podendo setar e pegar valores.
+
+pm.environment.name - Retorna o nome de uma variável
+pm.environment.has - Verifica se uma variável se encontra no escopo
+pm.environment.get - Retorna algum valor
+pm.environment.set - Setar o valor de uma variável
+pm.environment.unset - Retira um valor
+pm.environment.clear() - Limpa todas as variáveis do ambiente
+
+
